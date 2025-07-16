@@ -853,3 +853,45 @@ table button:hover {
 .whatsapp-button:hover {
   transform: scale(1.1);
 }
+/* ---------------------- */
+/* 📱 Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+  }
+
+  .about-content {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-image,
+  .about-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1, h2, h3, p {
+    font-size: 90%;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+  }
+}
